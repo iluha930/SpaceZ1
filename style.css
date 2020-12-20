@@ -1,0 +1,213 @@
+header {
+    background-color: #222222;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.columns {
+    padding: 85px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.advinse li {
+    width: 180px;
+}
+
+.column-left {
+    width: 440px;
+}
+
+.column-right {
+    width: 440px;
+}
+
+}
+
+.header-column-left {
+
+    width: 440px;
+    height: 440px;
+    background-color: #222222;
+}
+
+
+.header-column-right {
+    background-image: url("img/moon-rocket.png");
+    width: 440px;
+    height: 440px;
+    background-color: #222222;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    display: none;
+}
+
+.advantages {
+    padding: 85px 0;
+    background-color: #131313;
+}
+
+.travel-map {
+    padding: 85px 0;
+    background-color: #ffffff;
+}
+
+.advice li {
+    position: relative;
+    color: #222222;
+}
+
+.advice li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    background-color: #feca30;
+    border-radius: 50%;
+
+}
+
+.advice {
+    padding: 85px 0;
+    background-color: #f0f0f0;
+}
+
+.registration {
+    padding: 85px 0;
+    background-color: #222222;
+}
+
+.timetable {
+    padding: 85px 0;
+    background-color: #131313;
+}
+
+footer {
+    background-color: #131313;
+
+}
+
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+
+h3 {
+    font-family: Courier New;
+    font-size: 24px;
+    color: #131313;
+}
+
+.travel-map p {
+    color: #222222
+}
+
+.advice li {
+    color: #131313
+}
+
+.registration p {
+    color: f0f0f0
+}
+
+input {
+    padding: 20px;
+    border: 0;
+}
+
+input[name=fio] {
+    width: 400px;
+    margin-bottom: 8px
+}
+
+input[name=fon] {
+    width: 400px;
+    margin-bottom: 8px
+}
+
+.advantages li {
+    position: relative;
+}
+
+.advantages li::before {
+    content: '';
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    left: 0px;
+    top: -107px;
+    background-image: url("img/advantage-icon-3.png");
+}
+
+.main-menu,
+.contacts,
+.top-line {
+    display: flex
+}
+
+.contacts {
+
+    display: flex;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+
+.button{
+    display: inline-block;
+    width: 240px;
+    line-height: 50px;
+    background-color: #ffcb06;
+    position: relative;
+    border-radius: 25px;
+    padding-left: 22px;
+}
+.button::after {
+    background-image: url(right-arrow-dark.png);
+    content: '';
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    right: 22px;
+
+}
+.button1{
+    display: inline-block;
+    width: 240px;
+    line-height: 50px;
+    background-color: #131313;
+    position: relative;
+    border-radius: 25px;
+    padding-left: 22px;
+}
+.button::after {
+    background-image: url(right-arrow-white.png);
+    content: '';
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    right: 22px;
+);
+    content: '';
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    right: 22px;
